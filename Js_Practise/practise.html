@@ -11,7 +11,7 @@
 
         // MY TUTORIAL
         
-
+      /*
         //create an Array : 
         const cars = ["Volvo","BMW","Agera"];
 
@@ -23,7 +23,75 @@
         cars.push("McLearen");
 
         //Dispaly the Array
-        document.getElementById("demo").innerHTML = cars;
+        document.getElementById("demo").innerHTML = cars; */
+      
+        //=====================================
+
+        //create an object
+        /* 
+        const car = {type:"Fiat",model:"500",color:"white"};
+
+        //change a property
+        car.color = "Black";
+
+        //Add a property
+        car.name = "Ferari"; 
+        */
+
+        //=====================================
+
+        //function
+        /*
+        function myfunc(a,b){
+            return a*b;
+        }
+
+        let result = myfunc(2,6);
+
+        document.getElementById("demo").innerHTML = result;
+        */
+
+        //====================================
+
+        // create a object 
+
+        //const car = {type:"Fiat",model:"500",color:"whiite"};
+       /*
+        const man = {};
+
+        man.hands = 2;
+        man.legs = 2;
+        man.mouth = 1;
+        
+       */  
+    
+       //=================================
+
+       // create a object
+
+       //const person = new Object();
+
+       //add properties
+       /*
+       person.firstname = "sachintha";
+       person.lastname = "lakshan";
+       person.age = 23;
+
+       document.getElementById("demo").innerHTML = "Car Type is : " + person.age;
+        
+       */
+
+       //=================================
+       const person = {
+         firstname: "John",
+         lastname: "Doe",
+         id:123,
+         fullname: function(){
+            return this.firstname+" "+this.lastname;
+         }
+       };
+
+       document.getElementById("demo").innerHTML = person.fullname();
 
     </script>
 </body>
